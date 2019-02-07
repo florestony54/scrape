@@ -3,7 +3,7 @@ import urllib.request as urllib
 
 
 
-airpods = 'https://www.target.com/p/super-mario-bros-u-deluxe-nintendo-switch/-/A-54136573'
+airpods = 'https://www.target.com/p/apple-airpods/-/A-52106337'
 
 page = urllib.urlopen(airpods)
 soup = BeautifulSoup(page, 'html.parser')
